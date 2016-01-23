@@ -20,6 +20,7 @@ System.config({
     "d3": "github:mbostock/d3@3.5.13",
     "ramda": "npm:ramda@0.19.1",
     "redux": "npm:redux@3.0.5",
+    "redux-undo": "npm:redux-undo@0.6.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
@@ -55,6 +56,9 @@ System.config({
     },
     "npm:ramda@0.19.1": {
       "process": "github:jspm/nodelibs-process@0.1.2"
+    },
+    "npm:redux-undo@0.6.0": {
+      "redux": "npm:redux@3.0.5"
     },
     "npm:redux@3.0.5": {
       "process": "github:jspm/nodelibs-process@0.1.2"
