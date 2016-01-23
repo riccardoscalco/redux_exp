@@ -7,12 +7,12 @@ import { update } from './lib/update'
 init()
 
 // Render circle
-update(store)
+update()
 
 // Every time the state changes, log it
 let unsubscribe = store.subscribe(() =>
   //console.log(store.getState())
-  update(store)
+  update()
 )
 
 // Dispatch some actions
