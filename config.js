@@ -17,6 +17,7 @@ System.config({
     "babel": "npm:babel-core@5.8.34",
     "babel-runtime": "npm:babel-runtime@5.8.34",
     "core-js": "npm:core-js@1.2.6",
+    "css": "github:systemjs/plugin-css@0.1.20",
     "d3": "github:mbostock/d3@3.5.13",
     "ramda": "npm:ramda@0.19.1",
     "redux": "npm:redux@3.0.5",
